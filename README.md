@@ -5,7 +5,7 @@ Comming soon!
 I am using azurerite https://github.com/Azure/Azurite to emulate Azure blob containers locally. I am running Azurite in a docker container. The image for Azurite can be found in dockerhub (https://hub.docker.com/_/microsoft-azure-storage-azurite). Read more about MCR (Microsoft Container Registry) here https://github.com/microsoft/containerregistry
 
 
-You can run the docker container in following options - 
+You can run the docker container in either of the following options (I prefer option 1)- 
 
 1. Start with storage on disk and restart automatically after reboot. This one uses c:\Data\azurite to store data (change if needed).
 
