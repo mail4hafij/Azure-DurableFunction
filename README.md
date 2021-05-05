@@ -2,6 +2,15 @@
 
 Comming soon!
 
+
+## Durable Functions type
+1. Orchestrator functions
+2. Activity functions
+3. Entity functions
+4. Client functions
+
+## Local setup of Azure blob containers.
+
 I am using azurerite https://github.com/Azure/Azurite to emulate Azure blob containers locally. I am running Azurite in a docker container. The image for Azurite can be found in dockerhub (https://hub.docker.com/_/microsoft-azure-storage-azurite). Read more about MCR (Microsoft Container Registry) here https://github.com/microsoft/containerregistry
 
 
