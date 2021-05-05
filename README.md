@@ -1,3 +1,3 @@
 # Azure-DurableFunction
 
-## Comming soon!
+Comming soon!
