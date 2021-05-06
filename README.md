@@ -50,7 +50,7 @@ Read more https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable
 
 Read more https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-types-features-overview
 
-## Storage Emlulator using Azurite
+## Storage Emlulator using Azurite (Alternative to storage emulator comes from Azure SDK)
 If you need a Storage Emulator for Linux, one option is the community maintained, open-source Storage Emulator Azurite https://github.com/Azure/Azurite. You can run Azurite in a docker container. The image for Azurite can be found in dockerhub https://hub.docker.com/_/microsoft-azure-storage-azurite. Read more about MCR (Microsoft Container Registry) here https://github.com/microsoft/containerregistry
 
 You can run the docker container in either of the following options - 
