@@ -1,7 +1,7 @@
 # Azure-DurableFunction
 The idea is to orchestrate functions from a http trigger. Let's say, we have some orders to process. We recieve a http request with multiple orders in json format. We then process each order in async function and send email in to the payee in another async function.
 
-# How to run locally
+## How to run locally
 In this solution I am using Storage Emulator that comes with Azure SDK. Although the Storage Emulator is available as part of the Microsoft Azure SDK, you can also install the Storage Emulator by using the standalone installer. The Storage Emulator currently runs only on Windows. https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator
 
 After running the project, use postman to post a http request with the following json data
