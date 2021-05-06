@@ -3,11 +3,24 @@
 Comming soon!
 
 
+## Application patterns
+1. Function chaining
+2. Fan-out/fan-in
+3. Async HTTP APIs
+4. Monitoring
+5. Human interaction
+6. Aggregator (stateful entities)
+
+Read more https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-overview
+
 ## Durable Functions type
 1. Orchestrator functions
 2. Activity functions
 3. Entity functions
 4. Client functions
+
+
+Read more https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-types-features-overview
 
 ## Local setup of Azure blob containers.
 
