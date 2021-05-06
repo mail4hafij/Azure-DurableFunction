@@ -22,9 +22,12 @@ Read more https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable
 
 Read more https://docs.microsoft.com/en-us/azure/azure-functions/durable/durable-functions-types-features-overview
 
-## Local setup of Azure blob containers.
+## Local setup of Azure Storage Emlulator
 
-I am using azurerite https://github.com/Azure/Azurite to emulate Azure blob containers locally. I am running Azurite in a docker container. The image for Azurite can be found in dockerhub (https://hub.docker.com/_/microsoft-azure-storage-azurite). Read more about MCR (Microsoft Container Registry) here https://github.com/microsoft/containerregistry
+The Storage Emulator is available as part of the Microsoft Azure SDK. You can also install the Storage Emulator by using the standalone installer. The Storage Emulator currently runs only on Windows. https://docs.microsoft.com/en-us/azure/storage/common/storage-use-emulator
+
+
+If you need a Storage Emulator for Linux, one option is the community maintained, open-source Storage Emulator Azurite. I am using azurerite https://github.com/Azure/Azurite to emulate Azure blob containers locally. I am running Azurite in a docker container. The image for Azurite can be found in dockerhub (https://hub.docker.com/_/microsoft-azure-storage-azurite). Read more about MCR (Microsoft Container Registry) here https://github.com/microsoft/containerregistry
 
 
 You can run the docker container in either of the following options (I prefer option 1)- 
